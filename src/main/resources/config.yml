@@ -1,0 +1,8 @@
+chatformat: "%prefix%&r<%name%&r> %message"
+prefixes:
+  regular:
+    priority: 10
+    prefix: "[&aUSER&r]"
+  admin:
+    priority: 100
+    prefix: "[&cADMIN&r]"

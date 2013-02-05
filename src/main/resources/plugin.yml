@@ -1,0 +1,15 @@
+name: StupidlySimpleChat
+main: org.kitteh.sschat.StupidlySimple
+author: mbaxter
+description: Chat and stuff
+version: '${project.version}'
+permissions:
+  sschat.reload.use:
+    default: op
+    description: Able to use reload command
+commands:
+  sschat:
+    permission: sschat.reload.use
+    permission-message: You may not use this command
+    description: SSChat reloader
+    usage: /sschat
